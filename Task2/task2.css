@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+#header {
+    background-image: url("resources/spices.png");
+    background-repeat: repeat-x;
+    height: 170px;
+    margin-bottom: 30px;
+}
+
+#left {
+    background-color: #CDAD00;
+    float: left;
+    width: 300px;  
+    height: 400px;
+    margin-right: 50px;
+    justify-content: center;
+    font-family: 'Times New Roman';
+    font-size: 14px;
+}
+
+#right {
+    float: left;
+    height: 400px;
+}
+
+#h2_left {
+    color: white;
+    text-align: center; 
+}
+
+.content {
+    color: black;
+    text-align: justify;
+}
+
+a.content {
+    display: block;
+    text-align: center;
+}
+
+a.content:link {
+    color: white;
+}
+
+a.content:visited {
+    color: #8B7500;
+}
+
+a.content:hover {
+    color: black;
+}
+
+p.content {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.list_square {
+    list-style-type: square;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
